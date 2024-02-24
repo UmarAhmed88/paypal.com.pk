@@ -1,0 +1,273 @@
+.ddmenu{
+    width: 1000px;
+    height: 300px;
+}
+.txt1{
+    color: #001C64;
+    font-size: 40px;
+    font-weight: 700px;
+    margin-left: 40px;
+}
+.txt1:hover{
+    color: #57A1EB;
+}
+.txtflx{
+    gap: 30px;
+}
+.txt2{
+    color: #001C64;
+    font-size: 18px;
+    margin-left: 60px;
+    font-weight: 500;
+}
+.txt2:hover{
+    color: #57A1EB;
+    cursor: pointer;
+}
+.txt3{
+    color: #001C64;
+    font-size: 18px;
+}
+.txt3:hover{
+    font-weight: 600;
+    color: #001C64;
+}
+.navss{
+    margin-left: 70px;
+}
+.img1{
+    margin-left: 50px;
+}
+.bgcolor{
+    background: #FFFFFF;
+}
+.txt4{
+    margin-top: 10px;
+    color: #001C64;
+    font-size: 18px;
+    font-weight: 700px;
+}
+.btns{
+    gap: 150px;
+}
+.btn1{
+    color: #001C64;
+    font-weight: 600;
+    border: 3px solid #001C64;
+    width: 120px;
+    border-radius: 25px;
+    margin-left: -120px;
+}
+.btn1:hover{
+    color: #57A1EB;
+    border: 3px solid #57A1EB;
+    background-color: white;
+}
+.btn2{
+    color:white;
+    font-weight: 600;
+    /* border: 3px solid #001C64; */
+    width: 120px;
+    background: #001C64;
+    border-radius: 25px;
+    margin-left: -100px;
+    /* margin-right: 100px; */
+}
+.bgimg{
+    width: 100%;
+}
+.bgclr{
+    background: #142C8E;
+
+}
+.txt8{
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 200px;
+    color: white;
+    font-size: 100px;
+    font-weight: 600;
+}
+.txt9{
+    color: #57A1EB;
+    position: absolute;
+    margin-top: -420px;
+    margin-left: 200px;
+    font-size: 20px;
+}
+.txt9:hover{
+    text-decoration: underline;
+}
+.txt10{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 200px;
+}
+.qr{
+    margin-left: 200px;
+    /* border: 10px solid red; */
+    margin-top: 20px;
+}
+.frm{
+    border: 1px solid gray;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+.btn3{
+    position: absolute;
+    margin-left: 440px;
+    margin-top: 80px;
+    width: 130px;
+    height: 60px;
+    border-radius: 35px;
+}
+.txt11{
+    color: white;
+    position: absolute;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 450px;
+    margin-top: 150px;
+}
+.img3{
+    margin-left: 300px;
+    margin-top: -50px;
+    overflow: hidden;
+}
+.txt12{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+}
+.txt13{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+    color: #57A1EB;
+}
+.txttflx{
+    justify-content: center;
+}
+.txt15{
+    font-size: 48px;
+    /* font-weight: 600; */
+    font-family: sans-serif;
+}
+.txt16{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 180px;
+    font-size: 20px;
+}
+.txt17{
+    color: #57A1EB;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 300px;
+}
+.txt17:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.txt18{
+    font-size: 20px; 
+}
+.txt19{
+    font-size: 14px;
+    color: gray;
+}
+.img5{
+    margin-left: 200px;
+}
+ul {
+    list-style: none;
+  }
+  
+  .example-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .example-2 .icon-content {
+    margin: 0 10px;
+    position: relative;
+  }
+  .example-2 .icon-content .tooltip {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 14px;
+    transition: all 0.3s ease;
+  }
+  .example-2 .icon-content:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    top: -50px;
+  }
+  .example-2 .icon-content a {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #4d4d4d;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  .example-2 .icon-content a:hover {
+    box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+  }
+  .example-2 .icon-content a svg {
+    position: relative;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+  }
+  .example-2 .icon-content a:hover {
+    color: white;
+  }
+  .example-2 .icon-content a .filled {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
+  }
+  .example-2 .icon-content a:hover .filled {
+    height: 100%;
+  }
+  .example-2 .icon-content a[data-social="spotify"] .filled,
+  .example-2 .icon-content a[data-social="spotify"] ~ .tooltip {
+    background-color: #1db954;
+  }
+  .example-2 .icon-content a[data-social="pinterest"] .filled,
+  .example-2 .icon-content a[data-social="pinterest"] ~ .tooltip {
+    background-color: #bd081c;
+  }
+  .example-2 .icon-content a[data-social="dribbble"] .filled,
+  .example-2 .icon-content a[data-social="dribbble"] ~ .tooltip {
+    background-color: #ea4c89;
+  }
+  .example-2 .icon-content a[data-social="telegram"] .filled,
+  .example-2 .icon-content a[data-social="telegram"] ~ .tooltip {
+    background-color: #0088cc;
+  }
+  
